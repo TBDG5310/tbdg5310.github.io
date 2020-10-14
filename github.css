@@ -2,28 +2,52 @@
 
 :root {
     --font:'Product Sans';
-    --mainBackground: #202225;
-    --lighterBackground: #292b2f;
+    --darkGreyBackground: #202225;
+    --greyBackground: #292b2f;
+    --lightGreyBackground: #2f3136;
     --roundness: 25px;
 
 }
 
 html {
-    background-color: var(--mainBackground) !important;
+    background-color: var(--darkGreyBackground) !important;
 }
 
-.header {
+.header h1 {
+    position: relative;
+    z-index: 2;
     padding: 0px;
     text-align: center;
     color: white;
-    font-family: var(--font) !important;
-    background: var(--lighterBackground) !important;
-    border-radius: var(--roundness);
-    top: 20px; 
-}
-.header h1 {
     font-size: 120px;
+    margin: 10px 0 0 0;
+    font-family: var(--font) !important;
+    background: var(--greyBackground) !important;
+    border-radius: var(--roundness);
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
 }
-.header p {
-    font-size: 80
+
+
+.header h2 {
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: var(--font) !important;
+    background: var(--greyBackground) !important;
+    border-radius: var(--roundness);
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+.header img {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: var(--lightGreyBackground) !important;
+    padding: 50px 300px 50px 300px;
+    border-radius: 25px;
 }
