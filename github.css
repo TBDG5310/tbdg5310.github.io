@@ -16,7 +16,7 @@ html {
     padding: 0px;
     text-align: center;
     color: white;
-    font-family: ProductSans-regular;
+    font-family: var(--font) !important;
     background: var(--lighterBackground) !important;
     border-radius: var(--roundness);
     top: 20px; 
