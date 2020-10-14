@@ -6,7 +6,9 @@ html {
     padding: 0px;
     text-align: center;
     color: white;
-    font: Product-sans;
+    font-family: public-sans;
+    background: #292b2f;
+    border-radius: 25px;
 }
 .header h1 {
     font-size: 120px;
