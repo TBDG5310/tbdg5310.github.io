@@ -17,8 +17,8 @@ html {
     text-align: center;
     color: white;
     font-family: ProductSans-regular;
-    background: #292b2f;
-    border-radius: 25px;
+    background: var(--lighterBackground) !important;
+    border-radius: var(--roundness);
     top: 20px; 
 }
 .header h1 {
