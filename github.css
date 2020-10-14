@@ -3,6 +3,7 @@
     text-align: center;
     background: grey;
     color: white;
+    font: Product-sans;
 }
 .header h1 {
     font-size: 80px;
