@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Product+Sans:400,500);
+
 html {
     background-color: #202225;
 }
@@ -6,7 +8,7 @@ html {
     padding: 0px;
     text-align: center;
     color: white;
-    font-family: public-sans;
+    font-family: ProductSans-regular;
     background: #292b2f;
     border-radius: 25px;
     margin-top: 0px; 
