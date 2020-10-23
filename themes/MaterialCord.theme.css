@@ -29,7 +29,6 @@
 .wrapper-3BZGuR{border-radius: 25px;}
 .videoWrapper-3VC0Ax{border-radius: 25px;}
 .tile-2naSqK {border-radius: 25px;}
-
 .speaking-WDn8Wm {border-radius: 25px;}
 
 /* ||||  Nitro Popup  |||| */
@@ -80,12 +79,13 @@
     position: -webkit-sticky;
     position: sticky;
     z-index: 2;
-    top: -6px;
-    margin-top:-20px;
+    top: -4px;
+    margin-top:-7px;
     background: #18191c;
     border-radius: 0 25px 25px 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 0.1px;
+    margin-right: -5px;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {background: #18191c;border-radius: 90px;}
 #bd-pub-button {display:none;}
@@ -166,12 +166,30 @@
     background-color: #292b2f;
 	border-radius: 0 25px 25px 0;
 	margin-right: 0px;
-	margin-bottom: 25px;
-	margin-top: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/* Open Folder */
+
+.folder-21wGz3 {border-radius: 90px;background-color: #18191c;}
+.expandedFolderBackground-2sPsd- {background: #18191c;border-radius: 90px;}
+.scroller-2TZvBN {
+    background-color: #292b2f;
+	border-radius: 0 25px 25px 0;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	padding-right: 5px;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
+/* Closed Folder */
+
+.closedFolderIconWrapper-15K9MK {background: #18191c;}
 
 /* |||| Settings  |||| */
 
