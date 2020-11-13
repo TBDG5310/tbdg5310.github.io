@@ -247,6 +247,10 @@
 
 /* ||||  Channels List  |||| */
 
+.header-2V-4Sw {
+    border-radius: 25px;
+    background-color: #292b2f;
+}
 .content-3at_AU {border-radius: 25px;}
 .container-1giJp5 {
     position: relative;
@@ -344,6 +348,29 @@
 .slateTextArea-1Mkdgw {text-align: left;margin-left: 0px;}
 .placeholder-37qJjk {left: 0px;}
 
+/* ||||  Discovery Page  |||| */
+
+/* Main */
+
+.pageWrapper-1PgVDX {
+    border-radius: 25px;
+    margin: 10px 10px 10px 0px;
+}
+.searchBox-3Y2Vi7.searchBox-2_mAlO {border-radius: 25px;}
+
+/* Server Cards */
+
+.headerImage-3X1tyY {
+    border-radius: 25px;
+}
+.card-3DjzTQ {
+    border-radius: 12.5px;
+}
+.avatar-22otdK {
+    border-radius: 50px;
+}
+.iconMask-3b8GzQ {border-radius: 50px;}
+
 
 
 
@@ -353,7 +380,6 @@
 
 /* ||||||||||||  SNIPPETS FROM OTHER THEMES  |||||||||||| */
 
-    /* */
     /* 
     Zere's Old Settings Module 
     -css snippet by Zerebos 
