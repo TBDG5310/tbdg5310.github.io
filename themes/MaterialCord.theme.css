@@ -102,6 +102,11 @@
 
 /* ||||  Chat Popouts  |||| */
 
+/* Autocomplete Box (For channel # etc) */
+
+.autocomplete-1vrmpx {border-radius: 25px; margin: 0 25px 0 25px}
+.base-1pYU8j {border-radius: 25px;}
+
 /* Reply System */
 
 .container-2fRDfG {position: relative;z-index: 1;border-radius: 25px 25px 0 0;margin-bottom: -20px;padding-bottom: 15px;padding-right: 5px;background: #292b2f}
@@ -136,7 +141,7 @@
 
 /* ||||  Server Settings  |||| */
 
-#guild-header-popout {position: relative;z-index: 5;border-radius: 25px;width: 260px;padding-top: 50px;margin-top: -30px;}
+#guild-header-popout {position: relative;border-radius: 25px;width: 260px;padding-top: 0px;margin-top: 0px;}
 
 /* ||||  Spotify  |||| */
 
@@ -246,6 +251,9 @@
 
 /* ||||  Channels List  |||| */
 
+.containerDefault--pIXnN {border-radius: 25px;}
+.content-1Wq3SX {border-radius: 25px;}
+.content-1x5b-n {border-radius: 25px;}
 .header-2V-4Sw {
     border-radius: 25px;
     background-color: #292b2f;
