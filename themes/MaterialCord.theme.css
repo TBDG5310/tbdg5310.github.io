@@ -76,23 +76,22 @@
 /* ||||  Home Button  |||| */
 
 .tutorialContainer-1v44GL {
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     z-index: 2;
-    top: -4px;
-    margin-top:-7px;
-    background: #18191c;
-    border-radius: 0 25px 25px 0;
-    padding-top: 5px;
-    padding-bottom: 0.1px;
-    margin-right: -5px;
+    top: -5px;
+    margin-top: -5px;
+    background: none;
+    border-radius: 0 0px 25px 0;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    margin-right: 6px;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {background: #18191c;border-radius: 90px;}
 #bd-pub-button {display:none;}
 
 /* ||||  Title Bar  |||| */
 
-.typeWindows-1za-n7 {background: #292b2f;}
+.typeWindows-1za-n7 {background: #202225;margin-top: 0px;padding-top: 5px}
 
 /* ||||  Calls  |||| */
 
@@ -102,6 +101,10 @@
 
 
 /* ||||  Chat Popouts  |||| */
+
+/* Reply System */
+
+.container-2fRDfG {position: relative;z-index: 1;border-radius: 25px 25px 0 0;margin-bottom: -20px;padding-bottom: 15px;padding-right: 5px;background: #292b2f}
 
 /* Attach File Popout */
 
@@ -177,16 +180,6 @@
 
 .folder-21wGz3 {border-radius: 90px;background-color: #18191c;}
 .expandedFolderBackground-2sPsd- {background: #18191c;border-radius: 90px;}
-.scroller-2TZvBN {
-    background-color: #292b2f;
-	border-radius: 0 25px 25px 0;
-	margin-right: 0px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
 /* Closed Folder */
 
 .closedFolderIconWrapper-15K9MK {background: #18191c;}
@@ -327,11 +320,11 @@
     top: -24px;
     left: 0;
     margin-right: -16px;
-    padding: 0 4px;
+    padding: 0 15px 10px;
     background: #2f3136;
     transition: 200ms ease-in-out;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     padding-bottom: 25px;
 }
 
