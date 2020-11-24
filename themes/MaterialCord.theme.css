@@ -297,7 +297,7 @@
 
 /* Main */
 
-.sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;}
+.sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;} 
 .content-yTz4x3::before {display: none;}
 .title-3qD0b-.da-title {border-radius: 25px;background: #292b2f;}
 .header-2o-2hj {position: relative;z-index: 6;border-radius: 25px;background: #292b2f;}
@@ -322,7 +322,7 @@
 
 .base-gE7OpD {font-size: 12px; font-weight: 500; line-height: 24px;}
 .typing-2GQL18 {
-    top: -24px;
+    top: -22px;
     left: 0;
     margin-right: -16px;
     padding: 0 15px 10px;
