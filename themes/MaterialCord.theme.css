@@ -2,7 +2,7 @@
 
 .container-6sXIoE {
     position: relative;
-    background: #292b2f;
+    background: #1e2023;
     border-radius: 25px;
     padding-bottom: 70px;
     margin-bottom: -65px;
@@ -315,10 +315,7 @@
 .containerDefault--pIXnN {border-radius: 25px;}
 .content-1Wq3SX {border-radius: 25px;}
 .content-1x5b-n {border-radius: 25px;}
-.header-2V-4Sw {
-    border-radius: 25px;
-    background-color: #292b2f;
-}
+.header-2V-4Sw {border-radius: 25px;background-color: #292b2f;}
 .content-3at_AU {border-radius: 25px;}
 .container-1giJp5 {
     position: relative;
@@ -343,6 +340,12 @@
 .button-1YfofB.da-button.buttonColor-7qQbGO.da-buttonColor.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN.da-grow {
     border-radius: 25px;
     background: #36393f;
+}
+
+/* Voice Activity */
+.avatarSpeaking-2IGMRN {
+    -webkit-box-shadow: inset 0 0 0 2px #1673f6, inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px #1673f6, inset 0 0 0 3px var(--background-secondary);
 }
 
 /* ||||  Chat stuff  |||| */
@@ -440,7 +443,81 @@
 
 
 
+/* ||||||||||||  User Profile  |||||||||||| */
 
+.root-SR8cQa{
+    background: transparent;
+    width: 800px;
+    flex-direction: row;
+    overflow: unset;
+    position: relative;
+}
+
+/*Header*/
+.topSectionNormal-2-vo2m, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P {width: 40%;border-radius: 25px 0 0 25px;}
+.topSectionPlaying-1J5E4n, .headerPlaying-j0WQBV {background-image:url(https://imgur.com/dl4b8D4.png);background-repeat: no-repeat;background-size: cover;}
+.topSectionXbox-3fWLjS, .headerXbox-3G-4PF {background-image:url(https://i.imgur.com/fwlurdb.png);background-repeat: no-repeat;background-size: cover;}
+.topSectionStreaming-1Tpf5X, .headerStreaming-2FjmGz {background-image:url(https://i.imgur.com/bGkMRoB.png);background-repeat: no-repeat;background-size: cover;}
+.topSectionSpotify-1lI0-P, .headerSpotify-zpWxgT {background-image:url(https://i.imgur.com/v4ewdC6.png);background-repeat: no-repeat;background-size: cover;}
+
+.body-3iLsc4, .footer-1fjuF6 {background-color: #292b2f;}
+
+
+/* for some stupid reason cutecord badges use this class so we need to stop that from breaking */
+.topSectionNormal-2-vo2m.cutecord-badges, .topSectionNormal-2-vo2m.bf-badge {width: unset !important;}
+.header-QKLPzZ .button-38aScr{position: absolute;bottom:18px;z-index: 1;left: 18px;}
+.header-QKLPzZ .button-38aScr + div{position: absolute;bottom: 22px;right: calc(22px + 60%);}
+.tabBarContainer-1s1u-z{border-top: unset;}
+.tabBar-2MuP6-{flex-direction: column;}
+.top-28JiJ- .item-PXvHYJ{height: 40px;border-bottom: unset;}
+
+/*Custom Status*/
+.activity-1ythUs {
+    position: absolute;
+    z-index: 1;
+    bottom: 380px;
+    background-color:#202225;
+    right: 160px;
+    min-width: 600px;
+    border-radius: 25px;
+}
+
+.customStatus-154i-H{max-width: 600px;padding-bottom: 10px;max-height: 30px;}
+
+/*Player*/
+.assetsLargeImageActivityFeed-25vA7H, .assetsLargeImageActivityFeedXbox-3Tr-tf, .assetsLargeImageProfile-3YXDex{width: 50px;height: 50px;}
+.activityProfile-2bJRaP{
+    right: unset;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    bottom: -156px;
+    background-color: #202225;
+    border-radius: 25px 25px 25px 25px;
+    left:0px;
+    width: 600px;
+    min-height: 125px;
+    max-height: 125px;
+    padding: 20px 20px 0px 20px;
+}
+.headerFill-adLl4x {background: transparent;}
+
+/*Body*/
+.body-3ND3kc{width: 40%;min-height: 350px;max-height: 350px;padding-bottom: 10px;padding-top: 10px;border-radius: 0 25px 25px 0;}
+
+/*Badges*/ /*when u have too many badges*/
+.profileBadges-2vWUYb{flex-wrap: wrap;flex-flow: row wrap;}
+
+/*Remove Note Section*/
+.userInfoSectionHeader-CBvMDh, .note-QfFU8y {display:none;padding: 0 0 0 0;}
+.userInfoSection-2acyCx {padding-top: 0px;}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {border-top: none ;}
+
+/*Accept Reject Friend Request Fix*/
+.actionRightButton-2vQaa9 {position: absolute;margin-left: 80px;}
+
+/*New Message Popup (top of screen)*/
+.newMessagesBar-265mhP {border-radius: 25px;width: 1265px;left: 20px;top: 5px;}
 
 
 
@@ -450,7 +527,7 @@
     /* 
     Zere's Old Settings Module 
     -css snippet by Zerebos 
-    */
+    */ /*
     :root {
         --width2: 60%;
         --height2: 85%;
@@ -487,3 +564,6 @@
         transform: translateZ(0);
         z-index: 3;
     }
+    */
+
+/* ||||
