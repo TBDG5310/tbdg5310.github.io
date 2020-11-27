@@ -95,9 +95,9 @@
 
 /* ||||  Calls  |||| */
 
-.grid-3HQYa0l.da-grid.wrapper-vj0FTk.da-wrapper.wrapper-2qzCYF.da-wrapper.noChat-18KtBD.video--KPXCT.da-video.theme-dark {border-radius: 25px;margin-right: 10px;}
+.grid-3HQYa0l.wrapper-vj0FTk.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT.theme-dark {border-radius: 25px;margin-right: 10px;}
 
-.wrapper-vj0FTk.da-wrapper.videoGrid-1khsrF.da-videoGrid.thin-1ybCId.fade-2kXiP2 {border-radius: 25px;margin-right: 10px;}
+.wrapper-vj0FTk.videoGrid-1khsrF.thin-1ybCId.fade-2kXiP2 {border-radius: 25px;margin-right: 10px;}
 
 
 /* ||||  Chat Popouts  |||| */
@@ -174,7 +174,7 @@
 /* ||||  User Profiles  |||| */
 
 .userPopout-3XzG_A {border-radius: 25px;}
-.flex-1xMQg5.flex-1O1GKY.da-flex {border-radius: 25px;}
+.flex-1xMQg5.flex-1O1GKY {border-radius: 25px;}
 
 
 /* ||||  Server List  |||| */
@@ -270,15 +270,14 @@
 
 /* General Stuff */
 
-.sidebar-CFHs90e.da-sidebar {background: #2f3136;}
+.sidebar-CFHs90e {background: #2f3136;}
 .contentRegionScroller-26nc1e {background: #292b2f;}
 
 /* ||||  Not sorted |||| */
 
-.sidebar-2K8pFh.da-sidebar.hasNotice-1XRy4h.da-hasNotice {border-radius: 25px;}
-.panels-j1Uci_.da-panels {border-radius: 25px;}
-.container-PNkimc.da-container {border-radius: 25px;}
-.sidebar-2K8pFh.da-sidebar {border-radius: 25px;width: 260px;margin: 10px;}
+.hasNotice-1XRy4h {border-radius: 25px;}
+.panels-j1Uci_ {border-radius: 25px;}
+.container-PNkimc {border-radius: 25px;}
 
 /* ||||  Members List  |||| */
 
@@ -307,11 +306,13 @@
     margin-top: -35px;
     margin-left: -25px
   }
-.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {border-radius: 25px;}
+.chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {border-radius: 25px;}
 .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {position: relative;left: 0px;padding-right: 15px}
 
 /* ||||  Channels List  |||| */
 
+
+.platform-win .sidebar-2K8pFh {border-radius: 25px;width: 240px;margin: 10px;}
 .containerDefault--pIXnN {border-radius: 25px;}
 .content-1Wq3SX {border-radius: 25px;}
 .content-1x5b-n {border-radius: 25px;}
@@ -321,8 +322,8 @@
     position: relative;
     background: #18191c;
 	border-radius: 25px;
-    padding-bottom: 70px;
-    margin-bottom: -65px;
+    padding-bottom: 56px;
+    margin-bottom: -50px;
 }
 .container-3baos1 {
 	position: relative;
@@ -337,7 +338,7 @@
     padding-bottom: 80px;
     margin-bottom: -70px;
 }
-.button-1YfofB.da-button.buttonColor-7qQbGO.da-buttonColor.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN.da-grow {
+.button-1YfofB.buttonColor-7qQbGO.button-38aScr {
     border-radius: 25px;
     background: #36393f;
 }
@@ -359,20 +360,21 @@
 .itemCard-v9viV7 {border-radius: 25px;}
 .body-1ld4H7 {border-radius: 12.5px;}
 .layerContainer-yqaFcK {margin-right: 10px;}
-.da-messagesWrapper{margin-right: 0px}
 .group-spacing-16{margin-right: 10px;}
-.searchBarComponent-32dTOx.da-searchBarComponent {border-radius: 25px;}
-.searchBar-6Kv8R2.da-searchBar {border-radius: 25px;background: #292B2f;}
-.container-1D34oG.da-container {margin-right: 10px;margin-top: 10px;margin-bottom: 10px;padding: 0px;}
-.peopleColumn-29fq28.da-peopleColumn {margin: 5px; border-radius: 25px;}
-.container-1r6BKw.da-container {border-radius: 25px;background: #292B2f;}
+.searchBarComponent-32dTOx {border-radius: 25px;}
+.searchBar-6Kv8R2 {border-radius: 25px;background: #292B2f;}
+.container-1D34oGr {margin-right: 10px;margin-top: 10px;margin-bottom: 10px;padding: 0px;}
+.peopleColumn-29fq28 {margin: 5px; border-radius: 25px;}
+.container-1r6BKw.themed-ANHk51 {border-radius: 25px;background: #292B2f;}
+
 
 /* Main */
 
 .sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;} 
-.content-yTz4x3::before {display: none;}
-.title-3qD0b-.da-title {border-radius: 25px;background: #292b2f;}
+.content-yTz4x3:before {display: none;}
+.title-3qD0b-.container-1r6BKw {border-radius: 25px;background: #292b2f;}
 .header-2o-2hj {position: relative;z-index: 6;border-radius: 25px;background: #292b2f;}
+.container-1D34oG {margin: 10px 10px 10px 0;padding-right:0px}
 
 /* ||||  Chatbox  |||| */
 
@@ -447,14 +449,14 @@
 
 .root-SR8cQa{
     background: transparent;
-    width: 800px;
+    width: 700px;
     flex-direction: row;
     overflow: unset;
     position: relative;
 }
 
 /*Header*/
-.topSectionNormal-2-vo2m, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P {width: 40%;border-radius: 25px 0 0 25px;}
+.topSectionNormal-2-vo2m, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P {width: 50%;border-radius: 25px 0 0 25px;}
 .topSectionPlaying-1J5E4n, .headerPlaying-j0WQBV {background-image:url(https://imgur.com/dl4b8D4.png);background-repeat: no-repeat;background-size: cover;}
 .topSectionXbox-3fWLjS, .headerXbox-3G-4PF {background-image:url(https://i.imgur.com/fwlurdb.png);background-repeat: no-repeat;background-size: cover;}
 .topSectionStreaming-1Tpf5X, .headerStreaming-2FjmGz {background-image:url(https://i.imgur.com/bGkMRoB.png);background-repeat: no-repeat;background-size: cover;}
@@ -477,8 +479,8 @@
     z-index: 1;
     bottom: 380px;
     background-color:#202225;
-    right: 160px;
-    min-width: 600px;
+    right: 0px;
+    min-width: 660px;
     border-radius: 25px;
 }
 
@@ -495,15 +497,16 @@
     background-color: #202225;
     border-radius: 25px 25px 25px 25px;
     left:0px;
-    width: 600px;
+    width: 660px;
     min-height: 125px;
     max-height: 125px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
 }
 .headerFill-adLl4x {background: transparent;}
 
 /*Body*/
-.body-3ND3kc{width: 40%;min-height: 350px;max-height: 350px;padding-bottom: 10px;padding-top: 10px;border-radius: 0 25px 25px 0;}
+.body-3ND3kc{width: 50%;min-height: 350px;max-height: 350px;padding-bottom: 10px;padding-top: 10px;border-radius: 0 25px 25px 0;}
+.connectedAccount-36nQx7 {width: 300px;}
 
 /*Badges*/ /*when u have too many badges*/
 .profileBadges-2vWUYb{flex-wrap: wrap;flex-flow: row wrap;}
@@ -518,6 +521,10 @@
 
 /*New Message Popup (top of screen)*/
 .newMessagesBar-265mhP {border-radius: 25px;width: 1265px;left: 20px;top: 5px;}
+
+/*Spotify Activity*/
+
+.timeBarProfile-10b-fm {position: absolute;top:100px;left: 20px;width: 660px;}
 
 
 
