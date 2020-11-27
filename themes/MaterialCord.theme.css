@@ -90,65 +90,56 @@
 #bd-pub-button {display:none;}
 
 /* ||||  Title Bar  |||| */
-
 .typeWindows-1za-n7 {background: #202225;margin-top: 0px;padding-top: 5px}
 
 /* ||||  Calls  |||| */
-
 .grid-3HQYa0l.wrapper-vj0FTk.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT.theme-dark {border-radius: 25px;margin-right: 10px;}
-
 .wrapper-vj0FTk.videoGrid-1khsrF.thin-1ybCId.fade-2kXiP2 {border-radius: 25px;margin-right: 10px;}
 
 
 /* ||||  Chat Popouts  |||| */
 
-/* Voice Chat "Playing" Popout */
+/* Server Notification Settings Popout */
+.modal-yWgWj- {border-radius: 25px;padding-top:10px}
+.header-1TKi98 {background: var(--background-secondary);top:-10px;}
 
+/* Voice Chat "Playing" Popout */
 .container-2dqNWc {border-radius: 25px;}
 
 /* Autocomplete Box (For channel # etc) */
-
 .autocomplete-1vrmpx {border-radius: 25px; margin: 0 25px 0 25px}
 .base-1pYU8j {border-radius: 25px;}
 
 /* Reply System */
-
 .container-2fRDfG {position: relative;z-index: 1;border-radius: 25px 25px 0 0;margin-bottom: -20px;padding-bottom: 15px;padding-right: 5px;background: #292b2f}
 
 /* Highlight Buttons (Right Side of Highlighted Message) */
-
 .wrapper-2aW0bm {border-radius: 25px;background: #292b2f}
 
 /* Attach File Popout */
-
 .attachPopout-36hjtN {border-radius: 25px;margin-bottom: -10px;}
 .attachPopoutRow-3iqqu1 {border-radius: 25px;}
 
 /* Emojis/Gifs */
-
 .contentWrapper-SvZHNd {border-radius: 25px;}
 .navButton-2gQCx- {border-radius: 25px;}
 .searchBar-5di9mG {border-radius: 25px;}
 .searchBar--fTZYa {border-radius: 25px;}
 
 /* Colours */
-
 .wrapper-2Gsate {background: #2f3136;}
 .listWrapper-3kgtQ0 {background: #292b2f;}
 .wrapper-1-Fsb8 {background: #292b2f;}
 
 /* ||||  Right Click Pane  |||| */
-
 #message {border-radius: 25px;}
 .focused-3afm-j {border-radius: 25px;}
 .menu-3sdvDG {border-radius: 25px;}
 
 /* ||||  Server Settings  |||| */
-
 #guild-header-popout {position: relative;border-radius: 25px;width: 260px;padding-top: 0px;margin-top: 0px;}
 
 /* ||||  Spotify  |||| */
-
 /*.headerSpotify-zpWxgT .activity-11LB_k {position: relative; padding: 0 !important;}
 .assetsLargeImage-eYwpTX {border-radius: 50%; }
 .topSectionStreaming-1Tpf5X .assetsLargeImage-eYwpTX {border-radius: var(--border-radius);}
@@ -172,13 +163,10 @@
 /*
 
 /* ||||  User Profiles  |||| */
-
 .userPopout-3XzG_A {border-radius: 25px;}
 .flex-1xMQg5.flex-1O1GKY {border-radius: 25px;}
 
-
 /* ||||  Server List  |||| */
-
 .scroller-2TZvBN {
     background-color: #292b2f;
 	border-radius: 0 25px 25px 0;
@@ -191,14 +179,11 @@
 }
 
 /* Open Folder */
-
 .folder-21wGz3 {border-radius: 90px;background-color: #18191c;}
 .expandedFolderBackground-2sPsd- {background: #18191c;border-radius: 90px;}
+
 /* Closed Folder */
-
 .closedFolderIconWrapper-15K9MK {background: #18191c;}
-
-
 
 /* |||| Settings  |||| */
 
@@ -269,7 +254,6 @@
 .side-8zPYf6 .item-PXvHYJ {border-radius: 25px;}
 
 /* General Stuff */
-
 .sidebar-CFHs90e {background: #2f3136;}
 .contentRegionScroller-26nc1e {background: #292b2f;}
 
@@ -311,7 +295,6 @@
 
 /* ||||  Channels List  |||| */
 
-
 .platform-win .sidebar-2K8pFh {border-radius: 25px;width: 240px;margin: 10px;}
 .containerDefault--pIXnN {border-radius: 25px;}
 .content-1Wq3SX {border-radius: 25px;}
@@ -351,12 +334,7 @@
 
 /* ||||  Chat stuff  |||| */
 
-/* Dm's */
-
-
-
 /* Friends Panel */
-
 .itemCard-v9viV7 {border-radius: 25px;}
 .body-1ld4H7 {border-radius: 12.5px;}
 .layerContainer-yqaFcK {margin-right: 10px;}
@@ -367,9 +345,7 @@
 .peopleColumn-29fq28 {margin: 5px; border-radius: 25px;}
 .container-1r6BKw.themed-ANHk51 {border-radius: 25px;background: #292B2f;}
 
-
 /* Main */
-
 .sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;} 
 .content-yTz4x3:before {display: none;}
 .title-3qD0b-.container-1r6BKw {border-radius: 25px;background: #292b2f;}
@@ -393,7 +369,6 @@
 }
 
 /* Typing */
-
 .base-gE7OpD {font-size: 12px; font-weight: 500; line-height: 24px;}
 .typing-2GQL18 {
     top: -22px;
@@ -408,7 +383,6 @@
 }
 
 /* Background */
-
 .scrollableContainer-2NUZem::-webkit-scrollbar {display: none;}
 .form-2fGMdU {padding-left: 0px;padding-right: 0px;}
 .characterCount-1cRDo2 {z-index: 3;}
@@ -416,44 +390,24 @@
 .theme-dark .form-2fGMdU:before {background: transparent;}
 
 /* Text Align */
-
 .slateTextArea-1Mkdgw {text-align: left;margin-left: 0px;}
 .placeholder-37qJjk {left: 0px;}
 
 /* ||||  Discovery Page  |||| */
 
 /* Main */
-
-.pageWrapper-1PgVDX {
-    border-radius: 25px;
-    margin: 10px 10px 10px 0px;
-}
+.pageWrapper-1PgVDX {border-radius: 25px;margin: 10px 10px 10px 0px;}
 .searchBox-3Y2Vi7.searchBox-2_mAlO {border-radius: 25px;}
 
 /* Server Cards */
-
-.headerImage-3X1tyY {
-    border-radius: 25px;
-}
-.card-3DjzTQ {
-    border-radius: 12.5px;
-}
-.avatar-22otdK {
-    border-radius: 50px;
-}
+.headerImage-3X1tyY {border-radius: 25px;}
+.card-3DjzTQ {border-radius: 12.5px;}
+.avatar-22otdK {border-radius: 50px;}
 .iconMask-3b8GzQ {border-radius: 50px;}
-
-
 
 /* ||||||||||||  User Profile  |||||||||||| */
 
-.root-SR8cQa{
-    background: transparent;
-    width: 700px;
-    flex-direction: row;
-    overflow: unset;
-    position: relative;
-}
+.root-SR8cQa{background: transparent;width: 700px;flex-direction: row;overflow: unset;position: relative;}
 
 /*Header*/
 .topSectionNormal-2-vo2m, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P {width: 50%;border-radius: 25px 0 0 25px;}
@@ -483,7 +437,6 @@
     min-width: 660px;
     border-radius: 25px;
 }
-
 .customStatus-154i-H{max-width: 600px;padding-bottom: 10px;max-height: 30px;}
 
 /*Player*/
