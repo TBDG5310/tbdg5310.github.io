@@ -119,7 +119,7 @@
 .menu-3sdvDG {border-radius: 25px;}
 
 /* ||||  Server Settings  |||| */
-#guild-header-popout {position: relative;border-radius: 25px;width: 260px;padding-top: 0px;margin-top: 0px;}
+#guild-header-popout {position: relative;border-radius: 25px;width: 240px;padding-top: 0px;margin-top: 0px;}
 
 /* ||||  Spotify  |||| */
 /*.headerSpotify-zpWxgT .activity-11LB_k {position: relative; padding: 0 !important;}
@@ -142,11 +142,7 @@
 .headerSpotify-zpWxgT .barInner-3NDaY_ {border-radius: 0;}
 .listenAlongIcon-2vb1HG {color: var(--spotify-color);}
 .listenAlongIcon-2vb1HG path {d: path("M5 15v-3h3v-2H5V7H3v3H0v2h3v3zm7-1.25c-2.34 0-7 1.17-7 3.5V19h14v-1.75c0-2.33-4.66-3.5-7-3.5zM7.34 17c.84-.58 2.87-1.25 4.66-1.25s3.82.67 4.66 1.25H7.34zM12 12c1.93 0 3.5-1.57 3.5-3.5S13.93 5 12 5 8.5 6.57 8.5 8.5 10.07 12 12 12zm0-5c.83 0 1.5.67 1.5 1.5S12.83 10 12 10s-1.5-.67-1.5-1.5S11.17 7 12 7zm5 5c1.93 0 3.5-1.57 3.5-3.5S18.93 5 17 5c-.24 0-.48.02-.71.07.76.94 1.21 2.13 1.21 3.43 0 1.3-.47 2.48-1.23 3.42.24.05.48.08.73.08zm2.32 2.02c1 .81 1.68 1.87 1.68 3.23V19h3v-1.75c0-1.69-2.44-2.76-4.68-3.23z") !important; }
-/*
-
-/* ||||  User Profiles  |||| */
-.userPopout-3XzG_A {border-radius: 25px;}
-.flex-1xMQg5.flex-1O1GKY {border-radius: 25px;}
+*/
 
 /* ||||  Server List  |||| */
 .scroller-2TZvBN {
@@ -194,6 +190,7 @@
 .inner-2Y6JuD {border-radius: 25px;}
 .accountList-33MS45 {border-radius: 25px;}
 .connection-1fbD7X, .connectionHeader-2MDqhu {border-radius: 25px;}
+.connectedAccount-36nQx7 {border-radius: 25px;}
 
 /* Billing */
 .defaultIndicator-G3c16x {border-radius: 12.5px}
@@ -262,8 +259,8 @@
 .membersWrap-2h-GB4, .members-1998pB {
     left: 15px;
     margin-left: -10px;
-    padding-top: 35px;
-    margin-top: -35px;
+    padding-top: 0px;
+    margin-top: 5px;
     margin-right: 15px
   }
 .chat-3bRxxu {
@@ -275,11 +272,11 @@
 }
 .chatContent-a9vAAp {
     background-color: var(--background-primary);
-    padding-top: 35px;
+    padding-top: 0px;
     border-radius: 25px;
     left: 25px;
     margin-right: 25px;
-    margin-top: -35px;
+    margin-top: 10px;
     margin-left: -25px
   }
 .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {border-radius: 25px;}
@@ -287,7 +284,7 @@
 
 /* ||||  Channels List  |||| */
 
-.platform-win .sidebar-2K8pFh {border-radius: 25px;width: 240px;margin: 10px;}
+.platform-win .sidebar-2K8pFh {border-radius: 25px;width: 240px;margin: 10px;padding-top: 0px;}
 .containerDefault--pIXnN {border-radius: 25px;}
 .content-1Wq3SX {border-radius: 25px;}
 .content-1x5b-n {border-radius: 25px;}
@@ -331,15 +328,18 @@
 /* ||||  Chat stuff  |||| */
 
 /* Friends Panel */
-.itemCard-v9viV7 {border-radius: 25px;}
-.body-1ld4H7 {border-radius: 12.5px;}
+.nowPlayingColumn-2sl4cE {background: var(--background-tertiary)}
+.itemCard-v9viV7 {border-radius: 25px;background: var(--background-secondary-alt)}
+.body-1ld4H7 {border-radius: 12.5px;background: var(background-primary) !important;}
 .layerContainer-yqaFcK {margin-right: 10px;}
 .group-spacing-16{margin-right: 10px;}
 .searchBarComponent-32dTOx {border-radius: 25px;}
 .searchBar-6Kv8R2 {border-radius: 25px;background: var(--background-secondary-alt);}
 .container-1D34oGr {margin-right: 10px;margin-top: 10px;margin-bottom: 10px;padding: 0px;}
-.peopleColumn-29fq28 {margin: 5px; border-radius: 25px;}
+.peopleColumn-29fq28 {margin-top: 10px; border-radius: 25px;background: var(--background-primary);}
 .container-1r6BKw.themed-ANHk51 {border-radius: 25px;background: var(--background-secondary-alt);}
+.tabBody-3YRQ8W:before {display: none;}
+.container-1D34oG {background: var(--background-tertiary) !important;}
 
 /* Main */
 .sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;} 
@@ -407,6 +407,10 @@
 
 /* ||||||||||||  User Profile  |||||||||||| */
 
+/* User Popout */
+.userPopout-3XzG_A {border-radius: 25px;}
+
+/*Main*/
 .root-SR8cQa{background: transparent;width: 700px;flex-direction: row;overflow: unset;position: relative;}
 
 /*Header*/
