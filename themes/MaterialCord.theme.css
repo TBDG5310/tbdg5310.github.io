@@ -371,6 +371,13 @@
 
 /* ||||||||||||  Server Message Search  |||||||||||| */
 
+/* Collapsing Feature */
+.search-2oPWTC .searchBar-3dMhjb {width: 27px;transition-duration: .5s;}
+.search-2oPWTC .searchBar-3dMhjb:hover {width: 144px;}
+.search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {width: 220px !important;}
+.search-2oPWTC .icon-38sknP {cursor: pointer;}
+.searchFilter-2ESiM3, .searchAnswer-3Dz2-q {border-radius: 25px;margin-left: 2px;}
+
 /* Search-Box tips */
 #search-results.container-3ayLPN {border-radius: 25px;;margin-top: 14px;min-width: 340px;margin-right: -12px !important;background: var(--background-floating)}
 .option-96V44q {border-radius: 25px !important;}
@@ -532,7 +539,7 @@
 /* SpotifyControls */
 .container-6sXIoE {
     position: relative;
-    background: var(--background-tertiary);
+    background: #1d1e21;
     border-radius: 25px;
     padding-bottom: 70px;
     margin-bottom: -65px;
