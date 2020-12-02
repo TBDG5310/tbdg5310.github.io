@@ -93,6 +93,9 @@
 
 /* ||||  Chat Popouts  |||| */
 
+/* Domain Trust */
+.wrap-ZIn9Iy {border-radius: 25px;}
+
 /* Server Notification Settings Popout */
 .modal-yWgWj- {border-radius: 25px;padding-top:10px}
 .header-1TKi98 {background: var(--background-secondary);top:-10px;}
@@ -406,11 +409,17 @@
 }
 
 /*Typing*/
+.form-2fGMdU {display: flex;flex-flow: column-reverse;}
+.form-2fGMdU::before {display: none;}
 .base-gE7OpD {font-size: 12px; font-weight: 500; line-height: 24px;}
 .typing-2GQL18 {
+    display: flex;
+    position: static;
+    align-items: center;
     top: -22px;
     left: 0;
     margin-right: -16px;
+    margin-bottom: -25px !important;
     padding: 0 15px 10px;
     background: var(--background-secondary);
     transition: 200ms ease-in-out;
@@ -449,7 +458,11 @@
 /* ||||||||||||  User Profile  |||||||||||| */
 
 /*Status Menu*/
-#status-picker.menu-3sdvDG {position: relative;width: 240px;margin-left: -8px;}
+.description-2L932D, .separator-2I32lJ, .status-1fhblQ { display: none;}
+#status-picker .item-1tOPte {display: inline-block !important;width: 30px;}
+#status-picker.menu-3sdvDG {display: inline-block; position: relative;width: 175px;margin-left: -8px;}
+#status-picker.statusItem-33LqPf {padding: 4px 10px;}
+#status-picker-custom-status {top: 2px;}
 
 /*User Popout*/
 .userPopout-3XzG_A {border-radius: 25px;}
