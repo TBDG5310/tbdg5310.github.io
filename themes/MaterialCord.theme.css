@@ -416,13 +416,10 @@
     display: flex;
     position: static;
     align-items: center;
-    top: -22px;
-    left: 0;
-    margin-right: -16px;
-    margin-bottom: -25px !important;
+    margin-bottom: -26px !important;
     padding: 0 15px 10px;
     background: var(--background-secondary);
-    transition: 200ms ease-in-out;
+    transition: .5s ease-in-out;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     padding-bottom: 25px;
