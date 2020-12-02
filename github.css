@@ -47,7 +47,30 @@ html {
     position: relative;
     z-index: 1;
     text-align: center;
-    background-color: var(--lightGreyBackground) !important;
-    padding: 50px 300px 50px 300px;
-    border-radius: 25px;
 }
+
+.flex-img1 {
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    margin: 10px 0 0 0;
+    font-family: var(--font) !important;
+    background: var(--greyBackground) !important;
+    border-radius: var(--roundness);
+    margin: 50px;
+    padding: 50px 50px 50px 50px;
+} 
+
+.img-materialcord {
+    position: relative;
+    background: url("https://dgtbhitzdg.github.io/materialcord.png") center no-repeat;
+    width: 1920px;
+    height: 1080px;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
