@@ -511,8 +511,8 @@
     z-index: 1;
     bottom: 380px;
     background-color:var(--background-tertiary);
-    right: -10px;
-    min-width: 670px;
+    right: -5px;
+    min-width: 665px;
     border-radius: 25px;
 }
 .customStatus-154i-H{max-width: 600px;padding-bottom: 10px;max-height: 30px;}
@@ -537,7 +537,7 @@
 
 /*Body*/
 .body-3ND3kc{width: 50%;min-height: 350px;max-height: 350px;padding-bottom: 10px;padding-top: 10px;border-radius: 25px 25px 25px 25px;margin-left: 10px;}
-.connectedAccount-36nQx7 {width: 300px;}
+.connectedAccount-36nQx7 {width: 280px;}
 
 /*Badges*/ /*when u have too many badges*/
 .profileBadges-2vWUYb{flex-wrap: wrap;flex-flow: row wrap;}
@@ -684,8 +684,8 @@ html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::af
 
 /* ||||||||||||  SNIPPETS FROM OTHER THEMES THAT AREN'T USED YET  |||||||||||| */
 
-/*
-:root { 
+
+/*:root { 
     --replies-border-left: 4px;
     --replies-padding: 8px;
 }
@@ -725,4 +725,4 @@ html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::af
     left: calc(var(--replies-border-left) + var(--replies-padding) + 1rem + 4px);
     top: calc(100% + var(--replies-padding));
     white-space: nowrap;
-}*/
+}
