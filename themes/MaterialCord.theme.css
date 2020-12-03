@@ -68,6 +68,8 @@
 .root-1gCeng{border-radius: 25px;}
 .searchBar-3dMhjb{border-radius: 25px;}
 
+.children-19S4PO::after {display:none;}
+
 /* ||||  Home Button  |||| */
 
 .tutorialContainer-1v44GL {
