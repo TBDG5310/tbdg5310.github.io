@@ -54,7 +54,7 @@
     border-radius: 25px;
     margin-top: 14px;
     max-height: 940px !important;
-    left: 50px;
+    left: 180px;
     box-shadow: none;
 }
 .header-ykumBX {border-radius: 25px;background: var(--background-secondary-alt);}
@@ -552,8 +552,16 @@
 .headerFill-adLl4x {background: transparent;}
 
 /*Body*/
-.body-3ND3kc{width: 50%;min-height: 350px;max-height: 350px;padding-bottom: 10px;padding-top: 10px;border-radius: 25px 25px 25px 25px;margin-left: 10px;}
-.connectedAccount-36nQx7 {width: 280px;}
+.body-3ND3kc{
+    width: 85%;
+    min-height: 350px;
+    max-height: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 10px;
+}
+.connectedAccount-36nQx7 {max-width: 282px;min-width: 282px;}
 
 /*Badges*/ /*when u have too many badges*/
 .profileBadges-2vWUYb{flex-wrap: wrap;flex-flow: row wrap;}
