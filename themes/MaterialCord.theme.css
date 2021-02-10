@@ -307,10 +307,10 @@ W.I.P*/
 .unreadMentionsIndicatorBottom-BXS58x {
     position: absolute;
     z-index: 1;
-    bottom: 12px;
+    bottom: 22px;
     margin-left: -8px;
     width: 88px;
-    height: 100px;
+    height: 90px;
 }
 .unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe {
     border-radius: 0 25px 0 0;
@@ -959,14 +959,14 @@ W.I.P*/
     border-radius: 25px;
     background: var(--background-secondary)
 }
-.textScroller-dc9_kz {
+.themedPopout-1TrfdI .textScroller-dc9_kz {
     background: var(--background-secondary-alt);
     padding: 15px;
     margin: -10px;
     border-radius: 25px;
 }
-.divider-3573oO {display: none;}
-.marginBottom8-AtZOdT {
+.themedPopout-1TrfdI .divider-3573oO {display: none;}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT {
     background: var(--background-secondary-alt);
     padding: 10px;
     border-radius: 25px;
