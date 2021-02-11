@@ -802,7 +802,8 @@ W.I.P*/
 
 /* Big User Profile Colours */
 .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P,
-.topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X{
+.topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, 
+.topSectionXbox-3fWLjS {
     background: var(--background-tertiary);
 }
 .activity-1ythUs {
@@ -862,7 +863,7 @@ W.I.P*/
 /* Small User Profile Colours */
 
 .headerPlaying-j0WQBV, .headerSpotify-zpWxgT,
-.headerStreaming-2FjmGz {
+.headerStreaming-2FjmGz, .headerXbox-3G-4PF {
     background: var(--background-tertiary)
 }
 .userPopout-3XzG_A {background: var(--background-secondary)}
@@ -874,6 +875,9 @@ W.I.P*/
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP.activity-1ythUs {
     background: #1DB154 !important;
 }
+.topSectionXbox-3fWLjS .activityProfile-2bJRaP.activity-1ythUs {
+    background: #107c10 !important;
+}
 .topSectionStreaming-1Tpf5X .activityProfile-2bJRaP.activity-1ythUs {
     background: #593695 !important;
 }
@@ -883,6 +887,9 @@ W.I.P*/
 }
 .headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
     background: #1DB154 !important;
+}
+.headerXbox-3G-4PF .activityUserPopout-2yItg2 {
+    background: #107c10 !important
 }
 .headerStreaming-2FjmGz .activityUserPopout-2yItg2 {
     background: #593695 !important;
