@@ -473,11 +473,12 @@ W.I.P*/
 }
 .panel-24C3ux {
 	position: relative;
-	background: var(--background-floating);
+	background: var(--background-secondary-alt);
     border-radius: var(--border-radius-main);
     padding-bottom: 80px;
     margin-bottom: -70px;
 }
+.gameWrapper-1jIQAX .icon-3Oovq9 {border-radius: var(--border-radius-main)}
 .button-1YfofB.buttonColor-7qQbGO.button-38aScr {
     border-radius: var(--border-radius-main);
     background: var(--background-primary);
@@ -930,6 +931,10 @@ W.I.P*/
     top: 950px;
     height: 50px !important;
     position: relative;
+}
+.sidebar-2K8pFh.hideElement {
+    transition: margin 400ms ease;
+    margin-left: 0px !important;
 }
 
 /* SpotifyControls */
