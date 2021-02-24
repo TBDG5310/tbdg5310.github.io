@@ -587,6 +587,10 @@ W.I.P*/
 #status-picker-custom-status .statusItem-33LqPf .description-2L932D {
     display: inherit;
 }
+.customStatusItem-1TTIxM .customText-tY5LJn, .clearStatusIcon-3-MDNF {
+    position: relative;;
+    bottom: -5px !important;
+}
 
 /*Status SVG Change*/
 #status-picker-idle .statusItem-33LqPf .icon-1IxfJ2 [mask="url(#svg-mask-status-idle)"] {
@@ -716,6 +720,7 @@ W.I.P*/
 .searchBarComponent-32dTOx[type*="button"] {border-radius: var(--border-radius-main);}
 .layout-2DM8Md {border-radius: var(--border-radius-main);}
 .item-3HknzM.item-PXvHYJ.selected-3s45Ha {border-radius: var(--border-radius-main);}
+.tabBar-ZmDY9v .item-3HknzM:hover {border-radius: 25px;}
 .item-3HknzM.item-PXvHYJ[aria-controls*="ADD_FRIEND-tab"] {border-radius: var(--border-radius-main);}
 .nowPlayingColumn-2sl4cE {background: var(--background-tertiary)}
 .itemCard-v9viV7 {border-radius: var(--border-radius-main);background: var(--background-secondary-alt)}
@@ -729,6 +734,7 @@ W.I.P*/
 .container-1r6BKw.themed-ANHk51 {border-radius: var(--border-radius-main);background: var(--background-secondary-alt);}
 .tabBody-3YRQ8W:before {display: none;}
 .container-1D34oG {background: var(--background-tertiary) !important;}
+.wrapper-1cBijl {border-radius: 25px;}
 
 /*Library Tab*/
 .libraryHeader-3g95kE {margin-top: 10px;}
@@ -928,6 +934,7 @@ W.I.P*/
 .header-QKLPzZ {
     flex-flow: column;
     border-radius: var(--border-radius-main);
+    padding: 10px 10px 0px 10px;
 }
 .date-YN6TCS {
     text-align: center;
@@ -945,10 +952,11 @@ W.I.P*/
     margin-right: 30px;
     margin-top: 10px;
 }
-
 .actionButton-3W1xZa {
     margin-right: 20px;
 }
+
+
 
 /*Status Stuff*/
 .customStatus-154i-H {
@@ -1015,6 +1023,8 @@ W.I.P*/
     background: var(--background-secondary-alt)
 }
 
+
+
 /* Small User Profile */
 .userPopout-3XzG_A {
     border-radius: var(--border-radius-main);
@@ -1022,19 +1032,39 @@ W.I.P*/
 }
 
 /*Header*/
-.headerNormal-T_seeN, .headerNormal-T_seeN,
-.headerPlaying-j0WQBV, .headerSpotify-zpWxgT,
-.headerStreaming-2FjmGz {
+.headerNormal-T_seeN, .headerPlaying-j0WQBV,
+.headerSpotify-zpWxgT, .headerStreaming-2FjmGz,
+.headerXbox-3G-4PF {
     border-radius: var(--border-radius-main);
 }
 .customStatus-1bh2V9 {
     background: var(--background-secondary-alt);
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
+    bottom: -6px;
     border-radius: var(--border-radius-main);
 }
 .activityUserPopout-2yItg2 {
-    margin: 0px 10px 10px 10px;
+    margin: 0px;
     border-radius: var(--border-radius-main);
+}
+
+.headerTop-3C2Zn0 {margin-top: 30px;}
+.avatarWrapper-3H_478 {
+    position: absolute;
+    z-index: 1 !important;
+    top: -40px;
+}
+.avatarWrapper-3H_478 .wrapper-3t9DeA::after {
+    content: '';
+    position: relative;
+    z-index: -1;
+    display: inherit;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+    background: var(--background-tertiary);
+    border-radius: 50px;
 }
 
 /*Roles Section*/
