@@ -250,57 +250,7 @@
 /* Closed Folder */
 .closedFolderIconWrapper-15K9MK {background: var(--background-floating);}
 
-/* Home Button and Server Join Button Fixation */
-.guilds-1SWlCJ .scroller-2TZvBN {
-    contain: none !important;
-}
-.scroller-2TZvBN {
-    padding-top: 82px !important;
-    padding-bottom: 82px !important;
-}
 
-/*Home Button*/
-.tutorialContainer-1v44GL {
-    position: fixed;
-    z-index: 2;
-    top: 37px;
-    margin-top: 0px;
-    background: none;
-    border-radius: 0 0px 0px 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-right: 0px;
-}
-.tutorialContainer-1v44GL .listItemWrapper-3X98Pc {
-    background: var(--background-floating);
-    margin-top: -4px;
-    padding: 12px;
-    border-radius: 0 25px 25px 0px;
-}
-.tutorialContainer-1v44GL .pill-2uzAFe {
-    top: 10px
-}
-
-/*Join/Create Server*/
-.tutorialContainer-SGrQ1h {
-    position: fixed;
-    z-index: 3;
-    padding-bottom: 4px;
-    padding-top: 12px;
-    bottom: -2px;
-}
-.tutorialContainer-SGrQ1h .listItemWrapper-3X98Pc {
-    background: var(--background-floating);
-    padding: 12px;
-    border-radius: 0 25px 25px 0;
-}
-
-/*Discover Servers*/
-/*.circleIconButton-jET_ig {
-    display: fixed !important;
-    top: 0px;
-}
-W.I.P*/
 
 /*Unread Mentions*/
 .mention-1f5kbO {opacity: 1;}
@@ -361,6 +311,7 @@ W.I.P*/
 /* Authorized Apps */
 /* .formNotice-2_hHWR {border-radius: var(--border-radius-main);} */
 .authedApp-mj2Hmd {border-radius: var(--border-radius-main);background-color: var(--background-secondary);}
+.formNotice-2_hHWR, .authedApp-mj2Hmd {border: none;}
 
 /* Connections */
 .inner-2Y6JuD {border-radius: var(--border-radius-main);}
@@ -374,6 +325,7 @@ W.I.P*/
 .codeRedemptionRedirect-1wVR4b {border-radius: var(--border-radius-main);}
 .select-2fjwPw {border-radius: var(--border-radius-main);}
 .popout-VcNcHB {border-radius:25px;}
+.codeRedemptionRedirect-1wVR4b {border: none;}
 
 /* Subscriptions */
 .banner-3Kac2g {border-radius: var(--border-radius-main);}
@@ -383,6 +335,7 @@ W.I.P*/
 
 /* Gift Inventory */
 .inputDefault-_djjkz {border-radius: var(--border-radius-main);}
+.children-rWhLdy .inputDefault-_djjkz {border: none;}
 
 /* Server Boost */
 .guild-Hq0WWA {border-radius: var(--border-radius-main);}
@@ -404,6 +357,27 @@ W.I.P*/
 .item-26Dhrx {border-radius: var(--border-radius-main);}
 .previewContainer-37c2Si {border-radius: var(--border-radius-main);}
 .formNotice-2_hHWR {border-radius: var(--border-radius-main);}
+.css-gvi9bl-control, 
+.css-6fzn47-control,
+.css-17e1tep-control {
+    border: none;
+    height: 50px;
+    background: var(--background-secondary-alt);
+}
+.css-ku6vh5-indicatorContainer {
+    position: relative;
+    bottom: -5px;
+}
+.css-3vaxre-menu {
+    border: none;
+    background: var(--background-secondary-alt);
+}
+
+/*Appearance*/
+.preview-2nSL_2 {
+    border-radius: var(--border-radius-main);
+    border: none;
+}
 
 /* Overlay */
 .container-CpszHS {border-radius: var(--border-radius-main);}
@@ -411,6 +385,20 @@ W.I.P*/
 
 /* Keybinds */
 .css-118dehu-control {border-radius: var(--border-radius-main);}
+.item-rJ_Cmt .container-CpszHS {
+    border: none;
+    height: 50px;
+    background: var(--background-secondary-alt);
+}
+.select-2TCrqx .css-118dehu-control {
+    height: 50px;
+    background: var(--background-secondary-alt);
+}
+.select-2TCrqx .css-118dehu-control .css-1fhf191 {
+    position: relative;
+    bottom: -5px;
+}
+.theme-dark .card-FDVird:before {border-radius: 25px;}
 
 /* Game Activity */
 .activeGame-14JI7o {border-radius: var(--border-radius-main);}
