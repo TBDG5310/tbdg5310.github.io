@@ -8,6 +8,28 @@
 /*Tooltips*/
 .tooltip-2QfLtc {border-radius: var(--border-radius-alt);}
 
+/* ||||  Discord Log-In Screen  |||| */
+.authBoxExpanded-2jqaBe {
+	border-radius: var(--border-radius-main);
+	background: var(--background-secondary-alt) !important;
+}
+.mainLoginContainer-1ddwnR {
+	background: var(--background-secondary);
+	padding: 10px;
+	border-radius: var(--border-radius-main);
+}
+.mainLoginContainer-1ddwnR .input-cIJ7To {
+	border-radius: 25px !important;
+}
+.qrCode-wG6ZgU {
+	border-radius: var(--border-radius-alt) !important;
+}
+.qrLoginInner-c_7ePj {
+	background: var(--background-secondary);
+	border-radius: var(--border-radius-main);
+}
+
+
 /* ||||  Create Group DM Popout  |||| */
 
 .searchBarComponent-yxeVIL {border-radius: var(--border-radius-main);}
@@ -395,7 +417,16 @@ W.I.P*/
 .addGamePopout-2RY8Ju {border-radius: var(--border-radius-main);}
 
 /* Changelog */
-.video-1FESK- {border-radius: var(--border-radius-main);}
+.modal-3O0aXp .header-1TKi98 {
+    border-radius: var(--border-radius-main);
+    background: var(--background-secondary-alt);
+}
+.modal-3O0aXp .content-1LAB8Z {
+    padding-top: 10px;
+}
+.modal-3O0aXp .image-2WjK2f {
+    border-radius: var(--border-radius-main);
+}
 
 /* Buttons */
 .side-8zPYf6 .item-PXvHYJ {border-radius: var(--border-radius-main);}
@@ -828,6 +859,9 @@ W.I.P*/
 .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {width: 220px !important;}
 .search-2oPWTC .icon-38sknP {cursor: pointer;}
 .searchFilter-2ESiM3, .searchAnswer-3Dz2-q {border-radius: var(--border-radius-main);margin-left: 2px;}
+.search-36MZv- .open-6_Y_aH > .searchBar-3dMhjb {
+    width: 220px;
+}
 
 /* Search-Box tips */
 #search-results.container-3ayLPN {border-radius: var(--border-radius-main);;margin-top: 14px;min-width: 340px;margin-right: -12px !important;background: var(--background-floating)}
@@ -854,6 +888,14 @@ W.I.P*/
 	padding-top: 4px;
 	padding-bottom: 4px;
     padding-right: 12px;
+}
+
+/*Announcement Chatbox Notice*/
+.form-2fGMdU .wrapper-39oAo3 {
+    margin: unset;
+    border-radius: var(--border-radius-main);
+    background: var(--background-secondary-alt);
+    bottom: -4px;
 }
 
 /*Typing*/
@@ -1071,7 +1113,7 @@ W.I.P*/
 .role-2irmRk {
     position: relative;
     overflow: hidden;
-    z-index: 1                                                                                                                                                                                                              ;
+    z-index: 1;
     border: none;
     border-radius: var(--border-radius-main);
 }
