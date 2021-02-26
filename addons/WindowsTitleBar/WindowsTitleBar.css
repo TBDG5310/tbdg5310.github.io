@@ -1,0 +1,24 @@
+/*Thickness Of TitleBar*/
+.typeWindows-1za-n7 {
+    height: 32px;
+    margin: unset;
+}
+
+/*Button Resize*/
+.typeWindows-1za-n7 .wordmarkWindows-1v0lYD {
+    padding: 8px 9px 3px;
+}
+.typeWindows-1za-n7 .winButtonClose-1HsbF- {
+    height: 36px;
+    width: 46px;
+}
+.typeWindows-1za-n7 .winButtonMinMax-PBQ2gm {
+    height: 36px;
+    width: 46px;
+}
+
+/*Login Screen Placeholder Background*/
+.platform-win .splashBackground-1FRCko:before {
+    width: 138px !important;
+    height: 32px !important;
+}
