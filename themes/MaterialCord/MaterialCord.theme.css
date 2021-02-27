@@ -33,7 +33,6 @@
 /* ||||  Create Group DM Popout  |||| */
 
 .searchBarComponent-yxeVIL {border-radius: var(--border-radius-main);}
-.anchor-3Z-8Bb {border-radius: var(--border-radius-main);}
 .checkbox-1ix_J3 {border-radius: var(--border-radius-main);}
 
 /* |||| Full Screen Calls  |||| */
@@ -182,6 +181,53 @@
 .wrapper-2Gsate {background: var(--background-secondary);}
 .listWrapper-3kgtQ0 {background: var(--background-secondary-alt);}
 .wrapper-1-Fsb8 {background: var(--background-secondary-alt);}
+
+/*Fullscreen Pins, Mentions & Unread*/
+
+.messagesPopoutWrap-1MQ1bW, .container-enaOkj {
+    position: fixed;
+    top: 91px;
+    left: 332px;
+    max-height: calc(100% - 15px) !important;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 592px);
+    box-shadow: unset;
+    border-radius: 25px;
+}
+.container-enaOkj {
+    position: fixed;
+    top: 105px;
+    left: 332px;
+    max-height: calc(100% - 115px) !important;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 592px);
+    box-shadow: unset;
+    border-radius: 25px;
+}
+.container-enaOkj {
+    position: fixed;
+    top: 105px;
+    left: 332px;
+    max-height: calc(100% - 115px) !important;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 592px);
+    box-shadow: unset;
+    border-radius: 25px;
+}
+.messagesPopoutWrap-1MQ1bW {
+    position: fixed;
+    top: 91px;
+    left: 332px;
+    max-height: calc(100% - 115px) !important;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 592px);
+    box-shadow: unset;
+    border-radius: 25px;
+}
 
 /* ||||  Right Click Pane  |||| */
 #message {border-radius: var(--border-radius-main);}
@@ -825,6 +871,53 @@
 }
 .downloadButton-23tKQp path[fill*="currentColor"] {fill: #43b581 !important;}
 
+/*Audio Attachment*/
+.wrapperAudio-1jDe0Q {
+    border-radius: var(--border-radius-main);
+    border: none;
+    background: var(--background-secondary-alt) !important;
+    padding: 15px;
+    min-width: 480px;
+    height: 110px !important;
+}
+.wrapperAudio-1jDe0Q .audioControls-2HsaU6 {
+    border-radius: var(--border-radius-main)
+}
+.audioMetadata-3zOuGv .metadataDownload-1fk90V {
+    position: relative;
+    background: var(--background-secondary) !important;
+    padding: 8px;
+    border-radius: var(--border-radius-main);
+}
+.metadataIcon-2FyCKU {
+    color: #43b581 !important;
+}
+
+/*Video Attachment*/
+.embedVideo-3nf0O9, .imageWrapper-2p5ogY {border-radius: var(--border-radius-main) !important;}
+.videoControls-2kcYic {
+    height: 20px;
+    margin: 10px !important;
+    bottom: 0px;
+    border-radius: var(--border-radius-main);
+    width: auto;
+}
+.videoControls-2kcYic .controlIcon-3cRbti {
+    position: relative;
+    bottom: -5px;
+}
+.videoControls-2kcYic .durationTimeWrapper-OugPFt {
+    position: relative;
+    bottom: -5px;
+}
+.videoControls-2kcYic .horizontal-3Sq5iO {
+    position: relative;
+    bottom: -5px;
+}
+
+/*Image Attachment*/
+.anchor-3Z-8Bb {border-radius: var(--border-radius-main);}
+
 /*Attachment Sending*/
 .attachment-33OFj0 .cancelButton-3hVEV6 {
     position: relative;
@@ -1097,24 +1190,56 @@
     border-radius: 50px;
 }
 
-/*Roles Section*/
-.role-2irmRk {
-    position: relative;
+/*New Roles Tab Server Settings*/
+
+/*--------------------WORK IN PROGRESS, CONTINUE WORK ON THIS--------------------*/
+.sidebar-dLM-kh {
+    position: relative !important;
+    border-radius: 25px;
+    margin-top: 30px;
+    max-width: 220px !important;
+    left: 5px;
+    padding: 0px !important;
     overflow: hidden;
-    z-index: 1;
-    border: none;
+    height: 630px;
+}
+.sidebar-dLM-kh .list-I3aHXn {
+    padding: unset;
+}
+.container-23jqbX .side-8zPYf6 {
+    margin-left: 10px;
+}
+.container-23jqbX .scrollerBase-289Jih {
+    padding: unset !important;
+}
+.titleContainer-2CXtJo {
+    background: var(--background-primary);
+    width: 220px;
+    left: -40px;
+    margin: unset;
+}
+.container-_phMUq {
     border-radius: var(--border-radius-main);
 }
-.roleCircle-3xAZ1j::before {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    background: var(--background-secondary-alt);
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    opacity: 1;
+.container-cMG81i {
+    border-radius: var(--border-radius-main);
+}
+.sidebar-dLM-kh .side-8zPYf6 {
+    position: relative;
+    z-index: 1;
+    background: var(--background-primary)
+}
+.sidebar-dLM-kh {
+    background: var(--background-primary)
+}
+.contentWidth-xLB44s {
+    position: relative;
+    z-index: 1;
+    background: var(--background-primary);
+    border-radius: var(--border-radius-main);
+    margin-top: 30px;
+    right: -15px;
+    width: 498px;
 }
 
 /*Footer*/
