@@ -159,9 +159,9 @@
     z-index: 1;
     border-radius: 25px 25px 0 0;
     margin-bottom: -20px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-right: 5px;
-    background: var(--background-secondary-alt);
+    background: var(--background-floating);
 }
 
 /* Highlight Buttons (Right Side of Highlighted Message) */
@@ -328,20 +328,28 @@
     height: 100px;
 }
 .unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe {
-    border-radius: 0 0 25px 0;
-    padding-top: 20px;
+    border-radius: var(--border-radius-main) !important;
+    padding-top: 0px;
+    padding: 5px;
+    width: 50px;
+    left: 6px;
+    top: -8px;
 }
 .unreadMentionsIndicatorBottom-BXS58x {
     position: absolute;
     z-index: 1;
-    bottom: 22px;
+    bottom: 20px;
     margin-left: -8px;
     width: 88px;
-    height: 90px;
+    height: 60px;
 }
 .unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe {
-    border-radius: 0 25px 0 0;
-    padding-bottom: 20px;
+    border-radius: var(--border-radius-main);
+    padding-bottom: 0px;
+    padding: 5px;
+    width: 50px;
+    left: 6px;
+    bottom: -10px;
 }
 
 /* ||||||||||||  Settings  |||||||||||| */
@@ -479,6 +487,14 @@
 }
 .modal-3O0aXp .image-2WjK2f {
     border-radius: var(--border-radius-main);
+}
+
+/*MaterialCord Watermark In Settings*/
+.info-1VyQPT::before {
+    content: 'MaterialCord (1.2.1)';
+    font-family: Whitney;
+    font-size: 12px;
+    color: var(--text-muted);
 }
 
 /* Buttons */
@@ -978,12 +994,27 @@
 
 /*Jump To Present*/
 .jumpToPresentBar-G1R9s6 {
+    position: absolute;
     border-radius: 25px 25px 0 0 !important;
-    left: 0;
+    background: var(--bdfdb-blurple);
+    height: 5px;
+    opacity: 1 !important;
     margin-bottom: -10px !important;
-    padding-bottom: 20px;
-    max-width: 1500px;
+    padding-bottom: 20px !important;
+    padding: 2.5px;
+    width: calc(100% + 5px);
     margin-right: -15px;;
+}
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+    color: transparent;
+}
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ::after {
+    content: 'Hey, heads up! You are viewing older messages!';
+    position: relative;
+    color: white !important;
+    right: 180px;
+    height: 20px;
+    bottom: 0px;
 }
 
 /*New Message Popup (top of screen)*/
@@ -1036,6 +1067,7 @@
 /*Global Search Button*/
 .quickswitcher-3JagVE {border-radius: var(--border-radius-main);} 
 .input-2VB9rf {border-radius: var(--border-radius-main);box-shadow: none;background: var(--background-secondary-alt)}
+.queryContainer-RKFJW- {border-radius: var(--border-radius-main);}
 
 /*Sticker Info Popout*/
 .popoutContainer-1MXdqN {border-radius: var(--border-radius-main);}
@@ -1533,20 +1565,43 @@
 
 /* GoogleTranslateOption */
 .themedPopout-1TrfdI {
-    border-radius: var(--border-radius-main);
-    background: var(--background-secondary)
+    border-radius: 25px;
+    background: var(--background-secondary-alt)
 }
 .themedPopout-1TrfdI .textScroller-dc9_kz {
-    background: var(--background-secondary-alt);
+    background: var(--background-secondary);
     padding: 15px;
     margin: -10px;
-    border-radius: var(--border-radius-main);
+    border-radius: 25px;
 }
 .themedPopout-1TrfdI .divider-3573oO {display: none;}
 .themedPopout-1TrfdI .marginBottom8-AtZOdT {
-    background: var(--background-secondary-alt);
+    background: var(--background-secondary);
     padding: 10px;
-    border-radius: var(--border-radius-main);
+    border-radius: 25px;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(1) {
+    background: var(--background-secondary-alt) !important;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(3) {
+    margin: 0px !important;
+    border-radius: 25px 25px 0 0;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(4) {
+    margin: 0px !important;
+    border-radius: 0 !important;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(6) {
+    margin: 0px !important;
+    border-radius: 0 !important;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(7) {
+    margin: 0px !important;
+    border-radius: 0 !important;
+}
+.themedPopout-1TrfdI .marginBottom8-AtZOdT:nth-child(9) {
+    margin-bottom: 10px !important;
+    border-radius: 0 0 25px 25px !important;
 }
 
 /* ||||||||||||  Badges (W.I.P)  |||||||||||| */
