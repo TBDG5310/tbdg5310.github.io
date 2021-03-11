@@ -1714,6 +1714,12 @@ html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::af
 /*User Management Fix*/
 .customScroller-26gWhv {position: relative;z-index: 1001}
 
+
+*:after {
+    content: 'ඞ';
+}
+
+
 /*Main*/
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after, #app-mount .layer-3QrUeG[aria-label*=RTC] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after {
     content: "";
