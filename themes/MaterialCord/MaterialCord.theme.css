@@ -54,6 +54,12 @@
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
 }
+
+:root {
+    --border-radius-main: 25px;
+    --border-radius-alt: 12.5px;
+}
+
 /*Light theme color fixes*/
 .theme-light .container-1taM1r.clickable-25tGDB .header-2V-4Sw {
     background: var(--background-secondary);
@@ -336,33 +342,33 @@
 .messagesPopoutWrap-1MQ1bW, .container-enaOkj {
     position: fixed;
     top: 91px;
-    left: 332px;
+    left: 342px;
     max-height: calc(100% - 15px) !important;
     height: 100%;
     width: 100%;
-    max-width: calc(100% - 592px);
+    max-width: calc(100% - 602px);
     box-shadow: unset;
     border-radius: 25px;
 }
 .container-enaOkj {
     position: fixed;
     top: 91px !important;
-    left: 332px;
+    left: 342px;
     max-height: calc(100% - 100px) !important;
     height: 100%;
     width: 100%;
-    max-width: calc(100% - 592px);
+    max-width: calc(100% - 602px);
     box-shadow: unset;
     border-radius: 25px;
 }
 .messagesPopoutWrap-1MQ1bW {
     position: fixed;
     top: 77px;
-    left: 332px;
+    left: 342px;
     max-height: calc(100% - 101px) !important;
     height: 100%;
     width: 100%;
-    max-width: calc(100% - 592px);
+    max-width: calc(100% - 602px);
     box-shadow: unset;
     border-radius: 25px;
 }
@@ -397,15 +403,20 @@
 
 
 /* ||||  Server List  |||| */
-.scroller-2TZvBN {
+.scroller-1Bvpku {
     background-color: var(--background-secondary-alt);
-	border-radius: 0 25px 25px 0;
+	border-radius: var(--border-radius-main);
 	margin-right: 0px;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	padding-right: 0px;
 	padding-top: 10px;
 	padding-bottom: 20px;
+}
+.guilds-1SWlCJ {
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Open Folder */
@@ -841,7 +852,7 @@
 
 /* ||||||||||||  Channels List  |||||||||||| */
 
-.platform-win .sidebar-2K8pFh {border-radius: var(--border-radius-main);width: 240px;margin: 10px;padding-top: 0px;}
+.platform-win .sidebar-2K8pFh {border-radius: var(--border-radius-main);width: 240px;margin: 10px;margin-left: 20px;padding-top: 0px;}
 .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h {border-radius: var(--border-radius-main);width: 240px;margin: 10px;padding-top: 0px;}
 .containerDefault--pIXnN {border-radius: var(--border-radius-main);}
 .content-1Wq3SX {border-radius: var(--border-radius-main);}
@@ -1114,7 +1125,7 @@
     margin-bottom: -10px !important;
     padding-bottom: 20px !important;
     padding: 2.5px;
-    width: calc(100% + 5px);
+    width: calc(100% - 5px);
     margin-right: -15px;
     left: 0px;
 }
@@ -1421,36 +1432,43 @@
 
 /*Top Header*/
 .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P,
-.topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X{
+.topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, 
+.topSectionXbox-3fWLjS {
     border-radius:25px;
+}
+.headerInfo-30uryT {
+    background: var(--background-secondary);
+    border-radius: var(--border-radius-alt);
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 0px;
 }
 .root-SR8cQa {
     border-radius: var(--border-radius-main);
 }
 .header-QKLPzZ {
-    flex-flow: column;
     border-radius: var(--border-radius-main);
     padding: 10px 10px 0px 10px;
 }
-.date-YN6TCS {
-    text-align: center;
-}
-.profileBadges-2vWUYb {
-    justify-content: center;
-    margin: 10px 0 10px 0;
-}
 .nameTag-2IFDfL {
-    justify-content: center;
-    margin: 10px 0 0 0;
-}
-.additionalActionsIcon-1FoUlE {
-    transform: rotate(90deg) !important;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .actionButton-3W1xZa {
-    margin-right: 20px;
+    top: -47px;
 }
+.header-QKLPzZ [role="button"]:nth-child(4) {
+    position: relative;
+    width: 0;
+}
+.additionalActionsIcon-1FoUlE {
+    position: relative;
+    background: var(--background-primary);
+    padding: 5px;
+    border-radius: var(--border-radius-main);
+    left: -214px;
+    top: -35px;
+}
+
 
 
 
